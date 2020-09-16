@@ -1,0 +1,74 @@
+{
+    "projects": [
+        {
+            "id": 1,
+            "project_name": "A Random Quote Generator",
+            "description": "Displays a randomly selected quote each time the user clicks a button.",
+            "technologies": ["HTML", "CSS", "JavaScript"],
+            "live_link": "https://robertmjr.github.io/Full-Stack-JS-Techdegree-Project-1/",
+            "github_link": "https://github.com/RobertMJr/Full-Stack-JS-Techdegree-Project-1",
+            "image_urls": [
+                "/static/images/Project1-main.png", 
+                "/static/images/Project1-landscape1.jpg", 
+                "/static/images/Project1-landscape2.jpg", 
+                "/static/images/Project1-landscape3.jpg"
+            ]
+        },
+        {
+            "id": 2,
+            "project_name": "List Pagination and Filtering",
+            "description": "Divides a long list into a series of \"pages\" and improves the user experience of a web page.",
+            "technologies": ["HTML", "CSS", "JavaScript"],
+            "live_link": "https://robertmjr.github.io/Full-Stack-JS-Techdegree-Project-2/",
+            "github_link": "https://github.com/RobertMJr/Full-Stack-JS-Techdegree-Project-2",
+            "image_urls": [
+                "/static/images/Project2-main.png",
+                "/static/images/Project2-landscape1.jpg", 
+                "/static/images/Project2-landscape2.jpg", 
+                "/static/images/Project2-landscape3.jpg"
+            ]
+        },
+        {
+            "id": 3,
+            "project_name": "Interactive Form",
+            "description": "Enhances an interactive registration form for a fictional conference called \"Full Stack Conf\" ",
+            "technologies": ["HTML", "CSS", "JavaScript"],
+            "live_link": "https://robertmjr.github.io/Full-Stack-JS-Techdegree-Project-3/",
+            "github_link": "https://github.com/RobertMJr/Full-Stack-JS-Techdegree-Project-3",
+            "image_urls": [
+                "/static/images/Project3-main.png",
+                "/static/images/Project3-landscape1.jpg", 
+                "/static/images/Project3-landscape2.jpg", 
+                "/static/images/Project3-landscape3.jpg"
+            ]
+        },
+        {
+            "id": 4,
+            "project_name": "Word Guessing Game",
+            "description": "Browser-based word guessing game: \"Phrase Hunter\".",
+            "technologies": ["HTML", "CSS", "JavaScript", "Object Oriented Programming in JS"],
+            "live_link": "https://robertmjr.github.io/Full-Stack-JS-Techdegree-Project-4/",
+            "github_link": "https://github.com/RobertMJr/Full-Stack-JS-Techdegree-Project-4",
+            "image_urls": [
+                "/static/images/Project4-main.png",
+                "/static/images/Project4-landscape1.jpg", 
+                "/static/images/Project4-landscape2.jpg", 
+                "/static/images/Project4-landscape3.jpg"
+            ]
+        },
+        {
+            "id": 5,
+            "project_name": "Public API Requests",
+            "description": "Uses the Random User Generator API to grab info from 12 random \"employees\" and with that data builds a prototype for an employee directory.",
+            "technologies": ["HTML", "CSS", "JavaScript", "API Request", "Async Javascript", "JSON"],
+            "live_link": "https://robertmjr.github.io/Full-stack-JS-Techdegree-Project-5/",
+            "github_link": "https://github.com/RobertMJr/Full-stack-JS-Techdegree-Project-5",
+            "image_urls": [
+                "/static/images/Project5-main.png", 
+                "/static/images/Project5-landscape1.jpg", 
+                "/static/images/Project5-landscape2.jpg", 
+                "/static/images/Project5-landscape3.jpg"
+            ]
+        }
+    ] 
+}

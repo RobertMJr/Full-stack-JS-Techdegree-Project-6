@@ -1,0 +1,12 @@
+extends layout.pug
+
+block content
+    article.grid-container.portfolio-intro
+        div
+        h1 Error: #{err.status}
+
+        p.lead.text-light
+            | #{err.message}
+        a(href='/') ← Back
+        br
+    pre #{err.stack}
