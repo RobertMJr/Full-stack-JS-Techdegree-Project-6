@@ -3,6 +3,8 @@ const express = require('express');
 /* Instantiate the Express app */
 const app = express();
 
+app.set('port', (process.env.PORT || 3000));
+
 /* Set the view engine to pug */
 app.set('view engine', 'pug');
 
