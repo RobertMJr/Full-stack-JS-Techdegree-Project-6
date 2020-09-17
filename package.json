@@ -7,6 +7,9 @@
     "start": "Node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "engines": {
+    "node": "12.18.3"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/RobertMJr/Full-stack-JS-Techdegree-Project-6.git"
