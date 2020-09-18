@@ -27,7 +27,7 @@
 | .portfolio-me a:hover | background-color | rgb(1, 30, 58) | Y | N/A | N/A |
 | .portfolio-breadcrumb | background-color | rgb(81, 134, 141) | Y | N/A | N/A |
 | .portfolio-breadcrumb a | color | whitesmoke | Y | N/A | N/A |
-| .portfolio-breadcrumb a:hover | backgound-color | rgb(1, 30, 58) | Y | N/A | N/A |
+| .portfolio-breadcrumb a:hover | background-color | rgb(1, 30, 58) | Y | N/A | N/A |
 | .portfolio-bio a:hover | color | rgb(1, 30, 58) | Y | N/A | N/A |
 | .portfolio-project li | color | #444 | N | whitesmoke | N/A |
 | .button | background-color | #333 | N | rgb(7, 80, 90) | N/A |
