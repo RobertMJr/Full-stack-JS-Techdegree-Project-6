@@ -1,3 +1,6 @@
+body {
+  background-color: rgb(81, 134, 141);
+}
 
 h1,h2,h3,h4,h5,p{
   font-family: 'Merriweather', serif;
@@ -8,6 +11,7 @@ h1,h2,h3,h4,h5,p{
     letter-spacing: 2.5px;
     -webkit-text-transform: uppercase;
     text-transform: uppercase;
+    color: whitesmoke;
   }
 
   h6{
@@ -27,15 +31,15 @@ h1,h2,h3,h4,h5,p{
 }
 
 .text-light{
-  color: #666;
+  color: white;
 }
 
 .button{
-  background-color: #333;
+  background-color: rgb(7, 80, 90);
 }
 
 .button:hover{
-  background-color: #111;
+  background-color: rgb(1, 30, 58);
 }
 
 a{
@@ -58,20 +62,20 @@ a:hover{
 
 .portfolio-me{
   padding: 20px;
-  background: #121213;
+  background-color: rgb(7, 80, 90);
   color: #fff;
   box-shadow: none !important;
 }
 
   .portfolio-me p{
     font-size: 14px;
-    color: #999;
+    color: white;
   }
 
   .portfolio-me a{
     font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: 600;
-    color: #555;
+    color: whitesmoke;
     font-size: 13px;
     letter-spacing: 2.5px;
     -webkit-text-transform: uppercase;
@@ -79,13 +83,12 @@ a:hover{
   }
 
   .portfolio-me a:hover{
-    color: #999;
+    background-color: rgb(1, 30, 58);
   }
 
 .portfolio-breadcrumb{
   margin: 0;
   padding: 20px;
-  border-bottom: 1px solid #eaeaea;
 }
 
  .portfolio-breadcrumb a{
@@ -95,11 +98,17 @@ a:hover{
    letter-spacing: 2.5px;
    -webkit-text-transform: uppercase;
    text-transform: uppercase;
+   color: whitesmoke;
+ }
+
+ .portfolio-breadcrumb a:hover{
+  background-color:rgb(1, 30, 58);
  }
 
 .portfolio-intro{
   margin: 0;
   padding: 40px 50px 30px;
+  color: whitesmoke;
 }
 
 .portfolio-intro p{
@@ -142,9 +151,20 @@ a:hover{
 
 .portfolio-project li{
   font-size: 13px;
-  color: #444;
+  color: whitesmoke;
 }
 
 .portfolio-bio{
     line-height: 25px;
+}
+
+.portfolio-bio p {
+  color: whitesmoke;
+}
+.portfolio-bio a {
+  color: rgb(170, 230, 245);
+}
+
+.portfolio-bio a:hover {
+  color: rgb(1, 30, 58);
 }

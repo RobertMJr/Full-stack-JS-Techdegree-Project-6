@@ -26,5 +26,4 @@ router.get('/project/:id', (req, res, next) => {
     } 
 });
 
-
 module.exports = router;
