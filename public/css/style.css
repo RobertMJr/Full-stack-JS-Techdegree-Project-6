@@ -1,13 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope&family=Spartan:wght@400;600&display=swap');
+
 body {
   background-color: rgb(81, 134, 141);
 }
 
 h1,h2,h3,h4,h5,p{
-  font-family: 'Merriweather', serif;
+  font-family: 'Spartan', 'Merriweather', serif;
 }
 
   h5{
-    font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: 'Manrope', 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     letter-spacing: 2.5px;
     -webkit-text-transform: uppercase;
     text-transform: uppercase;
