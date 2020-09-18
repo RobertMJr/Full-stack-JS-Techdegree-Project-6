@@ -1,5 +1,5 @@
 # Full-Stack-JS-Techdegree-Project-6
- My Sixt Techdegree Project
+ My Sixth Techdegree Project
 
  This is a portfolio site containing all the projects I have built so far.  
  The site has a landing page, an about page and a series of project pages.  
