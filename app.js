@@ -20,13 +20,13 @@ app.use((req, res, next) => {
     const err = new Error();
     err.status = 404;
     err.message = 'Oh no! Page not found.';
-    res.render('page-not-found', {err});
+    next(err);
 });
 
 /* Global error handler */
 app.use((err, req, res, next) => {
     if (err.status === 404) {
-        err.message = 'Oh no! Page not found.';
+        console.log(`Error: ${err.status}. ${err.message}`);
         res.render('page-not-found', {err});
     } else {
         err.message = err.message || 'It looks like something went wrong on the server.'
