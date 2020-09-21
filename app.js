@@ -36,6 +36,7 @@ app.use((err, req, res, next) => {
 });
 
 /* Listen on port 3000, and log a string to the console to idnicate on which port the app is listening to. */
-app.listen(3000, ()=> {
-    console.log('The application is running on localhost: 3000');
+const server = app.listen(process.env.PORT || 3000, ()=> {
+    let port = server.address().port;
+    console.log(`The application is running on localhost: ${port}`);
 });
