@@ -1,5 +1,11 @@
 # Full-Stack-JS-Techdegree-Project-6
- My Sixth Techdegree Project
+## My Sixth Techdegree Project
+
+### How To Run:
+1. Download project files from GitHub.
+2. Run `npm install` in your terminal to download and install all the dependencies.
+3. Run `npm start` in your terminal.
+
 
  This is a portfolio site containing all the projects I have built so far.  
  The site has a landing page, an about page and a series of project pages.  
