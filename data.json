@@ -69,6 +69,20 @@
                 "/static/images/Project5-landscape2.jpg", 
                 "/static/images/Project5-landscape3.jpg"
             ]
+        },
+        {
+            "id": 6,
+            "project_name": "React Gallery App",
+            "description": "A fast and lightweight gallery app created with the React library. ",
+            "technologies": ["HTML", "CSS", "JavaScript", "API Request", "React", "React Router", "Create React App", "JSX"],
+            "live_link": "https://robertmjr-react-gallery.netlify.app/",
+            "github_link": "https://github.com/RobertMJr/react-gallery",
+            "image_urls": [
+                "/static/images/Project7-main.png", 
+                "/static/images/Project7-landscape1.jpg", 
+                "/static/images/Project7-landscape2.jpg", 
+                "/static/images/Project7-landscape3.jpg"
+            ]
         }
     ] 
 }
