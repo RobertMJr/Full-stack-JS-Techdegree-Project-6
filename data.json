@@ -83,6 +83,20 @@
                 "/static/images/Project7-landscape2.jpg", 
                 "/static/images/Project7-landscape3.jpg"
             ]
+        },
+        {
+            "id": 7,
+            "project_name": "SQL Library Manager",
+            "description": "A Web application for listing, adding, updating and deleting books in a library application.",
+            "technologies": ["HTML", "CSS", "JavaScript", "Node.js", "Express", "PUG Templates", "ORM Sequelize", "SQLite", "Sequelize CLI", "Express App Generator"],
+            "live_link": "https://sql-lib-manager.herokuapp.com/",
+            "github_link": "https://github.com/RobertMJr/Full-Stack-JS-Techdegree-Project-8",
+            "image_urls": [
+                "/static/images/Project8-main.png", 
+                "/static/images/Project8-landscape1.jpg", 
+                "/static/images/Project8-landscape2.jpg", 
+                "/static/images/Project8-landscape3.jpg"
+            ]
         }
     ] 
 }
