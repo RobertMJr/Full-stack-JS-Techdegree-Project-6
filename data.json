@@ -2,7 +2,7 @@
     "projects": [
         {
             "id": 8,
-            "project_name": "Full Stack App with React and REST API",
+            "project_name": "Full Stack App",
             "description": "A React client with a school database REST API.",
             "technologies": ["HTML", "CSS", "JavaScript", "Node.js", "Express", "React", "ORM Sequelize", "MySQL", "SQLite", "Sequelize CLI", "Express App Generator"],
             "live_link": "https://fullstack-courses-robert-app.herokuapp.com/",
