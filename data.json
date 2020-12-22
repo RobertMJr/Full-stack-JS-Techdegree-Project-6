@@ -1,6 +1,20 @@
 {
     "projects": [
         {
+            "id": 8,
+            "project_name": "Full Stack App with React and REST API",
+            "description": "A React client with a school database REST API.",
+            "technologies": ["HTML", "CSS", "JavaScript", "Node.js", "Express", "React", "ORM Sequelize", "MySQL", "SQLite", "Sequelize CLI", "Express App Generator"],
+            "live_link": "https://fullstack-courses-robert-app.herokuapp.com/",
+            "github_link": "https://github.com/RobertMJr/Full-Stack-JS-Techdegree-Project-10",
+            "image_urls": [
+                "/static/images/Project10-main.png", 
+                "/static/images/Project10-landscape1.jpg", 
+                "/static/images/Project10-landscape2.jpg", 
+                "/static/images/Project10-landscape3.jpg"
+            ]
+        },
+        {
             "id": 7,
             "project_name": "SQL Library Manager",
             "description": "A web application for listing, adding, updating and deleting books in a library.",
