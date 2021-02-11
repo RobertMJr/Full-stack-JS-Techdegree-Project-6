@@ -16,12 +16,7 @@
 			],
 			"live_link": "https://nodejs-complete-g-udemy.herokuapp.com/",
 			"github_link": "https://github.com/RobertMJr/Shop---Node.js-The-Complete-Guide---Udemy",
-			"image_urls": [
-				"/static/images/Project11-main.png",
-				"/static/images/Project11-landscape1.jpg",
-				"/static/images/Project11-landscape2.jpg",
-				"/static/images/Project11-landscape3.jpg"
-			]
+			"image_urls": []
 		},
 		{
 			"id": 8,
