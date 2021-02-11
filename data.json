@@ -3,7 +3,7 @@
 		{
 			"id": 9,
 			"project_name": "Web Shop",
-			"description": "A web shop built with Node.js and Express \n (Application built following the Udemy course: NodeJS - The Complete Guide (MVC, REST APIs, GraphQL, Deno)",
+			"description": "A web shop built with Node.js and Express. The application built following the Udemy course: NodeJS - The Complete Guide (MVC, REST APIs, GraphQL, Deno)",
 			"technologies": [
 				"HTML",
 				"CSS",
