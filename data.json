@@ -1,116 +1,183 @@
 {
-    "projects": [
-        {
-            "id": 8,
-            "project_name": "Full Stack App",
-            "description": "A React client with a school database REST API.",
-            "technologies": ["HTML", "CSS", "JavaScript", "Node.js", "Express", "React", "ORM Sequelize", "MySQL", "SQLite", "Sequelize CLI", "Express App Generator"],
-            "live_link": "https://fullstack-courses-robert-app.herokuapp.com/",
-            "github_link": "https://github.com/RobertMJr/Full-Stack-JS-Techdegree-Project-10",
-            "image_urls": [
-                "/static/images/Project10-main.png", 
-                "/static/images/Project10-landscape1.jpg", 
-                "/static/images/Project10-landscape2.jpg", 
-                "/static/images/Project10-landscape3.jpg"
-            ]
-        },
-        {
-            "id": 7,
-            "project_name": "SQL Library Manager",
-            "description": "A web application for listing, adding, updating and deleting books in a library.",
-            "technologies": ["HTML", "CSS", "JavaScript", "Node.js", "Express", "PUG Templates", "ORM Sequelize", "SQLite", "Sequelize CLI", "Express App Generator"],
-            "live_link": "https://sql-lib-manager.herokuapp.com/",
-            "github_link": "https://github.com/RobertMJr/Full-Stack-JS-Techdegree-Project-8",
-            "image_urls": [
-                "/static/images/Project8-main.png", 
-                "/static/images/Project8-landscape1.jpg", 
-                "/static/images/Project8-landscape2.jpg", 
-                "/static/images/Project8-landscape3.jpg"
-            ]
-        },
-        {
-            "id": 6,
-            "project_name": "React Gallery App",
-            "description": "A fast and lightweight gallery app created with the React library. ",
-            "technologies": ["HTML", "CSS", "JavaScript", "API Request", "React", "React Router", "Create React App", "JSX"],
-            "live_link": "https://robertmjr-react-gallery.netlify.app/",
-            "github_link": "https://github.com/RobertMJr/react-gallery",
-            "image_urls": [
-                "/static/images/Project7-main.png", 
-                "/static/images/Project7-landscape1.jpg", 
-                "/static/images/Project7-landscape2.jpg", 
-                "/static/images/Project7-landscape3.jpg"
-            ]
-        },
-        {
-            "id": 5,
-            "project_name": "Public API Requests",
-            "description": "Uses the Random User Generator API to grab info from 12 random \"employees\" and with that data builds a prototype for an employee directory. Additional \"employee\" information can be accesed by clicking on one of them. The directory is searchable. ",
-            "technologies": ["HTML", "CSS", "JavaScript", "API Request", "Async Javascript", "JSON"],
-            "live_link": "https://robertmjr.github.io/Full-stack-JS-Techdegree-Project-5/",
-            "github_link": "https://github.com/RobertMJr/Full-stack-JS-Techdegree-Project-5",
-            "image_urls": [
-                "/static/images/Project5-main.png", 
-                "/static/images/Project5-landscape1.jpg", 
-                "/static/images/Project5-landscape2.jpg", 
-                "/static/images/Project5-landscape3.jpg"
-            ]
-        },
-        {
-            "id": 4,
-            "project_name": "Word Guessing Game",
-            "description": "Browser-based word guessing game: \"Phrase Hunter\". It challenges the player to figure out a hidden phrase.",
-            "technologies": ["HTML", "CSS", "JavaScript", "Object Oriented Programming in JS"],
-            "live_link": "https://robertmjr.github.io/Full-Stack-JS-Techdegree-Project-4/",
-            "github_link": "https://github.com/RobertMJr/Full-Stack-JS-Techdegree-Project-4",
-            "image_urls": [
-                "/static/images/Project4-main.png",
-                "/static/images/Project4-landscape1.jpg", 
-                "/static/images/Project4-landscape2.jpg", 
-                "/static/images/Project4-landscape3.jpg"
-            ]
-        },
-        {
-            "id": 3,
-            "project_name": "Interactive Form",
-            "description": "Enhances an interactive registration form for a fictional conference called \"Full Stack Conf\". Uses custom validation checks and error messages instead of the built in HTML5 validation.",
-            "technologies": ["HTML", "CSS", "JavaScript"],
-            "live_link": "https://robertmjr.github.io/Full-Stack-JS-Techdegree-Project-3/",
-            "github_link": "https://github.com/RobertMJr/Full-Stack-JS-Techdegree-Project-3",
-            "image_urls": [
-                "/static/images/Project3-main.png",
-                "/static/images/Project3-landscape1.jpg", 
-                "/static/images/Project3-landscape2.jpg", 
-                "/static/images/Project3-landscape3.jpg"
-            ]
-        },
-        {
-            "id": 2,
-            "project_name": "List Pagination and Filtering",
-            "description": "An app that divides a long list of students into a series of \"pages\" and improves the user experience. It also has a feature to search all the students and display only the ones that match.",
-            "technologies": ["HTML", "CSS", "JavaScript"],
-            "live_link": "https://robertmjr.github.io/Full-Stack-JS-Techdegree-Project-2/",
-            "github_link": "https://github.com/RobertMJr/Full-Stack-JS-Techdegree-Project-2",
-            "image_urls": [
-                "/static/images/Project2-main.png",
-                "/static/images/Project2-landscape1.jpg", 
-                "/static/images/Project2-landscape2.jpg", 
-                "/static/images/Project2-landscape3.jpg"
-            ]
-        },
-        {
-            "id": 1,
-            "project_name": "A Random Quote Generator",
-            "description": " An app that displays a randomly selected quote. Users can click the \"Show another quote button\" to display a new quote or wait as the quote is automatically updated based on an internal timer.",
-            "technologies": ["HTML", "CSS", "JavaScript"],
-            "live_link": "https://robertmjr.github.io/Full-Stack-JS-Techdegree-Project-1/",
-            "github_link": "https://github.com/RobertMJr/Full-Stack-JS-Techdegree-Project-1",
-            "image_urls": [
-                "/static/images/Project1-main.png", 
-                "/static/images/Project1-landscape1.jpg", 
-                "/static/images/Project1-landscape2.jpg", 
-                "/static/images/Project1-landscape3.jpg"
-            ]
-        }
-    ] 
+	"projects": [
+		{
+			"id": 9,
+			"project_name": "Web Shop",
+			"description": "A web shop built with Node.js and Express",
+			"technologies": [
+				"HTML",
+				"CSS",
+				"JavaScript",
+				"Node.js",
+				"Express",
+				"MongoDB",
+				"Mongoose",
+				"Express"
+			],
+			"live_link": "https://nodejs-complete-g-udemy.herokuapp.com/",
+			"github_link": "https://github.com/RobertMJr/Shop---Node.js-The-Complete-Guide---Udemy",
+			"image_urls": [
+				"/static/images/Project11-main.png",
+				"/static/images/Project11-landscape1.jpg",
+				"/static/images/Project11-landscape2.jpg",
+				"/static/images/Project11-landscape3.jpg"
+			]
+		},
+		{
+			"id": 8,
+			"project_name": "Full Stack App",
+			"description": "A React client with a school database REST API.",
+			"technologies": [
+				"HTML",
+				"CSS",
+				"JavaScript",
+				"Node.js",
+				"Express",
+				"React",
+				"ORM Sequelize",
+				"MySQL",
+				"SQLite",
+				"Sequelize CLI",
+				"Express App Generator"
+			],
+			"live_link": "https://fullstack-courses-robert-app.herokuapp.com/",
+			"github_link": "https://github.com/RobertMJr/Full-Stack-JS-Techdegree-Project-10",
+			"image_urls": [
+				"/static/images/Project10-main.png",
+				"/static/images/Project10-landscape1.jpg",
+				"/static/images/Project10-landscape2.jpg",
+				"/static/images/Project10-landscape3.jpg"
+			]
+		},
+		{
+			"id": 7,
+			"project_name": "SQL Library Manager",
+			"description": "A web application for listing, adding, updating and deleting books in a library.",
+			"technologies": [
+				"HTML",
+				"CSS",
+				"JavaScript",
+				"Node.js",
+				"Express",
+				"PUG Templates",
+				"ORM Sequelize",
+				"SQLite",
+				"Sequelize CLI",
+				"Express App Generator"
+			],
+			"live_link": "https://sql-lib-manager.herokuapp.com/",
+			"github_link": "https://github.com/RobertMJr/Full-Stack-JS-Techdegree-Project-8",
+			"image_urls": [
+				"/static/images/Project8-main.png",
+				"/static/images/Project8-landscape1.jpg",
+				"/static/images/Project8-landscape2.jpg",
+				"/static/images/Project8-landscape3.jpg"
+			]
+		},
+		{
+			"id": 6,
+			"project_name": "React Gallery App",
+			"description": "A fast and lightweight gallery app created with the React library. ",
+			"technologies": [
+				"HTML",
+				"CSS",
+				"JavaScript",
+				"API Request",
+				"React",
+				"React Router",
+				"Create React App",
+				"JSX"
+			],
+			"live_link": "https://robertmjr-react-gallery.netlify.app/",
+			"github_link": "https://github.com/RobertMJr/react-gallery",
+			"image_urls": [
+				"/static/images/Project7-main.png",
+				"/static/images/Project7-landscape1.jpg",
+				"/static/images/Project7-landscape2.jpg",
+				"/static/images/Project7-landscape3.jpg"
+			]
+		},
+		{
+			"id": 5,
+			"project_name": "Public API Requests",
+			"description": "Uses the Random User Generator API to grab info from 12 random \"employees\" and with that data builds a prototype for an employee directory. Additional \"employee\" information can be accesed by clicking on one of them. The directory is searchable. ",
+			"technologies": [
+				"HTML",
+				"CSS",
+				"JavaScript",
+				"API Request",
+				"Async Javascript",
+				"JSON"
+			],
+			"live_link": "https://robertmjr.github.io/Full-stack-JS-Techdegree-Project-5/",
+			"github_link": "https://github.com/RobertMJr/Full-stack-JS-Techdegree-Project-5",
+			"image_urls": [
+				"/static/images/Project5-main.png",
+				"/static/images/Project5-landscape1.jpg",
+				"/static/images/Project5-landscape2.jpg",
+				"/static/images/Project5-landscape3.jpg"
+			]
+		},
+		{
+			"id": 4,
+			"project_name": "Word Guessing Game",
+			"description": "Browser-based word guessing game: \"Phrase Hunter\". It challenges the player to figure out a hidden phrase.",
+			"technologies": [
+				"HTML",
+				"CSS",
+				"JavaScript",
+				"Object Oriented Programming in JS"
+			],
+			"live_link": "https://robertmjr.github.io/Full-Stack-JS-Techdegree-Project-4/",
+			"github_link": "https://github.com/RobertMJr/Full-Stack-JS-Techdegree-Project-4",
+			"image_urls": [
+				"/static/images/Project4-main.png",
+				"/static/images/Project4-landscape1.jpg",
+				"/static/images/Project4-landscape2.jpg",
+				"/static/images/Project4-landscape3.jpg"
+			]
+		},
+		{
+			"id": 3,
+			"project_name": "Interactive Form",
+			"description": "Enhances an interactive registration form for a fictional conference called \"Full Stack Conf\". Uses custom validation checks and error messages instead of the built in HTML5 validation.",
+			"technologies": [ "HTML", "CSS", "JavaScript" ],
+			"live_link": "https://robertmjr.github.io/Full-Stack-JS-Techdegree-Project-3/",
+			"github_link": "https://github.com/RobertMJr/Full-Stack-JS-Techdegree-Project-3",
+			"image_urls": [
+				"/static/images/Project3-main.png",
+				"/static/images/Project3-landscape1.jpg",
+				"/static/images/Project3-landscape2.jpg",
+				"/static/images/Project3-landscape3.jpg"
+			]
+		},
+		{
+			"id": 2,
+			"project_name": "List Pagination and Filtering",
+			"description": "An app that divides a long list of students into a series of \"pages\" and improves the user experience. It also has a feature to search all the students and display only the ones that match.",
+			"technologies": [ "HTML", "CSS", "JavaScript" ],
+			"live_link": "https://robertmjr.github.io/Full-Stack-JS-Techdegree-Project-2/",
+			"github_link": "https://github.com/RobertMJr/Full-Stack-JS-Techdegree-Project-2",
+			"image_urls": [
+				"/static/images/Project2-main.png",
+				"/static/images/Project2-landscape1.jpg",
+				"/static/images/Project2-landscape2.jpg",
+				"/static/images/Project2-landscape3.jpg"
+			]
+		},
+		{
+			"id": 1,
+			"project_name": "A Random Quote Generator",
+			"description": " An app that displays a randomly selected quote. Users can click the \"Show another quote button\" to display a new quote or wait as the quote is automatically updated based on an internal timer.",
+			"technologies": [ "HTML", "CSS", "JavaScript" ],
+			"live_link": "https://robertmjr.github.io/Full-Stack-JS-Techdegree-Project-1/",
+			"github_link": "https://github.com/RobertMJr/Full-Stack-JS-Techdegree-Project-1",
+			"image_urls": [
+				"/static/images/Project1-main.png",
+				"/static/images/Project1-landscape1.jpg",
+				"/static/images/Project1-landscape2.jpg",
+				"/static/images/Project1-landscape3.jpg"
+			]
+		}
+	]
 }
