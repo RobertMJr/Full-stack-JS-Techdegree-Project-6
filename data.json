@@ -1,6 +1,20 @@
 {
 	"projects": [
 		{
+			"id": 10,
+			"project_name": "React Groceries List",
+			"description": "A groceries list app built with the React library.",
+			"technologies": [ "HTML", "CSS", "JavaScript", "React" ],
+			"live_link": "https://lista-cumparaturi.netlify.app/",
+			"github_link": "https://github.com/RobertMJr/Lista-Cumparaturi---Groceries-List",
+			"image_urls": [
+				"/static/images/Project12-main.png",
+				"/static/images/Project12-landscape1.jpg",
+				"/static/images/Project12-landscape2.jpg",
+				"/static/images/Project12-landscape3.jpg"
+			]
+		},
+		{
 			"id": 9,
 			"project_name": "Web Shop",
 			"description": "A web shop built with Node.js and Express. The application was built following the Udemy course: NodeJS - The Complete Guide (MVC, REST APIs, GraphQL, Deno)",
